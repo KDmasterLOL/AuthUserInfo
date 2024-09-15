@@ -1,16 +1,21 @@
-Stack: React/Next.js, Zustand, 
+## Overview
 
+Example of JWT auth.
+
+**Stack**: React/Next.js, Zustand, Zod, TypeScript, shadcn/ui, Tailwind CSS, Apollo GraphQL.
+**Using API**: [https://fakeapi.platzi.com/en/gql/auth-jwt/](https://fakeapi.platzi.com/en/gql/auth-jwt/)
+
+### How it works
+
+When you open [http://localhost:3000](http://localhost:3000) (`/`) you will be redirected to `/login`. 
+If you try open other route than `/login` without login you will be redirected to `/login`. 
+
+To login enter email `john@mail.com` and password `changeme`.
+
+## Run
 
 To run dev server:
 ```bash
 npm run dev
 ```
 Then open [http://localhost:3000](http://localhost:3000).
-
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
